@@ -853,13 +853,3 @@ p {
   width: 55% !important;
 }
 
-.emailSignup {
-  display: block;
-  background: #F2A541;
-  width: 100%;
-  margin: 0 0 20px;
-  position: relative;
-  box-sizing: border-box;
-  padding: 40px;
-  text-align: center;
-}
