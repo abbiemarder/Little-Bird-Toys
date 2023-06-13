@@ -406,6 +406,8 @@ p {
 
 .carousel-inner {
   background-image: url(description/prices.png);
+  width:650px;
+  height: 600px;
 }
 
 .carousel-caption {
