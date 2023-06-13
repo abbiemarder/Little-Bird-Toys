@@ -13,12 +13,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
+<body class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container px-4 px-lg-5">
       <a class="navbar-brand" href="index.html">Little Bird Toys</a>
@@ -91,10 +93,10 @@
     <div id="about">
       <div class="p-5 justify-content-center d-flex">
         <div class="row text-center">
-          <h1 class="name">Our Mission</h1>
+          <h1 class="name col-sm-12">Our Mission</h1>
 
           <div class="col-sm-12">
-            <p class="pt-3 label">Our handcrafted classic, wooden toys are designed to bring out that slowness in
+            <p class="pt-3 ex">Our handcrafted classic, wooden toys are designed to bring out that slowness in
               your home.
               From Planes, trains, automobiles and boats, playsets, all of our wooden toys are designed to spark
               imagination. The going may be a little slower, but oh the things you’ll see along the way! Since 2018,
@@ -171,208 +173,163 @@
           <div id="toys">
             <div class="p-5">
               <h1 class="name text-center">Our Toys</h1>
-              <div class="row">
-                <div class="col-sm-3">
-                </div>
-                <div class="col-sm-6">
-                  <div class="carousel-item">
-            <div class="wrapper">
-              <div class="product-img">
-                <img src="http://bit.ly/2tMBBTd" height="420" width="327">
-                <img src="images/train1.jpg" height="420" width="327">
-              </div>
-              <div class="product-info">
-                <div class="product-text">
-                  <h1>Harvest Vase</h1>
-                  <h2>by studio and friends</h2>
-                  <h1>Wooden Toy Train</h1>
-                  <h2>by Little Bird Toy Co.</h2>
-                  <p>Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables as<br> functional objects.
-                    The
-                    surfaces<br> appear to be sliced and pulled aside,<br> allowing room for growth. </p>
-                </div>
-                <div class="product-price-btn">
-                  <p><span class="span">78</span>$</p>
-                  <p><span class="span">69</span>$</p>
-                  <button type="button">buy now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="wrapper">
-              <div class="product-img">
-                <img src="images/boat2.jpg" height="420" width="327">
-              </div>
-              <div class="product-info">
-                <div class="product-text">
-                  <h1>Wooden Toy Boat</h1>
-                  <h2>by Little Bird Toy Co.</h2>
-                  <p>Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables as<br> functional objects.
-                    The
-                    surfaces<br> appear to be sliced and pulled aside,<br> allowing room for growth. </p>
-                </div>
-                <div class="product-price-btn">
-                  <p><span class="span">69</span>$</p>
-                  <button type="button">buy now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="wrapper">
-              <div class="product-img">
-                <img src="images/block1.jpg" height="420" width="327">
-              </div>
-              <div class="product-info">
-                <div class="product-text">
-                  <h1>Wooden Block Toy Set</h1>
-                  <h2>by Little Bird Toy Co.</h2>
-                  <p>Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables as<br> functional objects.
-                    The
-                    surfaces<br> appear to be sliced and pulled aside,<br> allowing room for growth. </p>
-                </div>
-                <div class="product-price-btn">
-                  <p><span class="span">69</span>$</p>
-                  <button type="button">buy now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-              <div class="col-sm-3">
-              </div>
-            </div>
-            <div id="mailing">
-              <div class="p-5">
-                <h1 class="name text-center">Join Our Mailing List</h1>
-                <div class="row text-center form">
-                  <div class="col-12 text-center pt-3"></div>
-                  <main role="main">
 
-                    <div class="contentWrapper  justify-content-center">
-                      <form action="" method="post" name="signUpForm" id="signUpForm" class="bg text-center">
-                        <fieldset id="signUp">
-                          <h5 class="title1">Reach Out With Questions</h5>
-                          <div class="form pt-3">
-                            <input id="nameField" name="nameField" type="text"
-                              class="textfield form-control rounded border-white mb-3 form-input m-auto"
-                              value="Name (First & Last)" onfocus="clearName();" onblur="resetName();" />
+              <div class="container">
+                <div class="row text-center">
+                  <div class="col-md-12 ">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <img src="toys/block1.png" width="650px" height="600px" alt="First slide">
+                          <div class="carousel-caption">
+                            <h3>
+                              Wooden Block Toy Set</h3>
+
                           </div>
-                          <div class="form pt-3">
-                            <input id="phoneField" name="phoneField" type="text"
-                              class="textfield form-control rounded border-white mb-3 form-input  m-auto"
-                              value="Phone #" onfocus="clearPhone();" onblur="resetPhone();" />
+                        </div>
+
+                        <div class="item">
+                          <img src="toys/boat1.png" width="650px" height="600px" alt="Second slide">
+                          <div class="carousel-caption">
+                            <h3>
+                              Wooden Toy Boat
+</h3>
+
                           </div>
-                          <div class="form pt-3">
-                            <input id="emailField" name="emailField" type="text"
-                              class="textfield form-control rounded border-white mb-3 form-input form-text-area  m-auto"
-                              value="Email" onfocus="clearEmail();" onblur="resetEmail();" />
+                        </div>
+                        <div class="item">
+                          <img src="toys/car1.png" width="650px" height="600px" alt="Third slide">
+                          <div class="carousel-caption">
+                            <h3>
+                             Wooden Toy Car
+</h3>
+
                           </div>
-                        </fieldset>
-                        <button class="send">Send</button>
-                      </form>
+                        </div>
+                        <div class="item">
+                          <img src="toys/train1.png" width="650px" height="600px" alt="Third slide">
+                          <div class="carousel-caption">
+                            <h3>
+                             Wooden Toy Train
+</h3>
+
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="toys/plane1.png" width="650px" height="600px" alt="Third slide">
+                          <div class="carousel-caption">
+                            <h3>
+                              Wooden Toy Airplane
+
+</h3>
+
+                          </div>
+                        </div>
+                      </div>
+
+                      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control"
+                        href="#carousel-example-generic" data-slide="next"><span
+                          class="glyphicon glyphicon-chevron-right">
+                        </span></a>
+
                     </div>
-                </div>
-                </main>
-              </div>
-            </div>
-          <!--CONTACT SECTION-->
-          <div id="contact">
-            <!--FOOTER SECTION -->
-            <div id="footer">
 
-
-
-              <footer class="footer">
-                <div class="footer__addr">
-                  <h1 class="footer__logo"><img src="logos/circle.png" width="250" height="200"></h1>
-
-                  <h2>Contact</h2>
-
-                  <address>
-                    43 Main St, Toms River, NJ 08753
-                    <br>
-
-                    <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
-                  </address>
-                </div>
-
-                <ul class="footer__nav">
-                  <li class="nav__item">
-                    <h2 class="nav__title">Products</h2>
-
-                    <ul class="nav__ul nav__ul--extra">
-                      <li>
-                        <a href="#products">Wooden Toy Airplane</a>
-                      </li>
-
-                      <li>
-                        <a href="#products">Wooden Toy Train</a>
-                      </li>
-
-                      <li>
-                        <a href="#products">Wooden Toy Boat</a>
-                      </li>
-
-                      <li>
-                        <a href="#products">Wooden Block Toy Set</a>
-                      </li>
-
-                      <li>
-                        <a href="#products">Wooden Toy Car</a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li class="nav__item">
-                    <h2 class="nav__title">Company Info</h2>
-
-                    <ul class="nav__ul">
-                      <li>
-                        <a href="#">About Us</a>
-                      </li>
-
-                      <li>
-                        <a href="#">Product Info</a>
-                      </li>
-
-                      <li>
-                        <a href="#">Contact Us</a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-
-                <div class="legal">
-                  <p>&copy; 2023 Little Bird Handmade Toys. All rights reserved.</p>
-
-                  <div class="legal__links">
-                    <span>Made by Abbie Marder & Sam Silverstein</span>
                   </div>
-                </div>
-              </footer>
+
+                  <div id="mailing">
+                    <div class="p-5">
+                      <h1 class="name text-center">Join Our Mailing List</h1>
+                      <div class="row text-center form">
+                        <div class="col-12 text-center pt-3"></div>
+                        <main role="main">
+
+                          <div class="contentWrapper  justify-content-center">
+                            <form action="" method="post" name="signUpForm" id="signUpForm" class="bg text-center">
+                              <fieldset id="signUp">
+                                <h5 class="title1">Reach Out With Questions</h5>
+                                <div class="form pt-3">
+                                  <input id="nameField" name="nameField" type="text"
+                                    class="textfield form-control rounded border-white mb-3 form-input m-auto"
+                                    value="Name (First & Last)" onfocus="clearName();" onblur="resetName();" />
+                                </div>
+                                <div class="form pt-3">
+                                  <input id="phoneField" name="phoneField" type="text"
+                                    class="textfield form-control rounded border-white mb-3 form-input  m-auto"
+                                    value="Phone #" onfocus="clearPhone();" onblur="resetPhone();" />
+                                </div>
+                                <div class="form pt-3">
+                                  <input id="emailField" name="emailField" type="text"
+                                    class="textfield form-control rounded border-white mb-3 form-input form-text-area  m-auto"
+                                    value="Email" onfocus="clearEmail();" onblur="resetEmail();" />
+                                </div>
+                              </fieldset>
+                              <button class="send">Send</button>
+                            </form>
+                          </div>
+                      </div>
+                      </main>
+                    </div>
+                  </div>
+                  <!--Contact/footer SECTION-->
+                  <div id="footer">
+                    <!-- Footer -->
+                    <footer class="text-center text-black" style="background-color: rgb(245, 203, 154)">
+                      <!-- Grid container -->
+                      <div class="container">
+
+                        <hr class="my-5" />
+                        <!-- Section: Text -->
+                        <section class="mb-5">
+                          <div class="row d-flex justify-content-center">
+                            <div class="col-lg-8">
+                              <p class="footerheader">Contact</p>
+                              <b>Address: </b>43 Main St, Toms River, NJ 08753<br>
+                              <b>Phone: </b>(717) 123-1234
+                              <br>
+                              <b>Store Hours: </b> <br>
+                              WEEKDAYS:
+                          7:00 AM to 4:30 PM 
+                              <br>
+                              SATURDAY:
+                          10:00 AM to 2:00 PM
+                              <br>
+                              <b>All socials:</b> (FB, Insta, Twitter, Snapchat)
+                              <br>
+ @LittleBirdToyCo
 
 
+                              </p>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                      <!-- Copyright -->
+                      <div class="text-center p-3" style="background-color: white">
+                      
+                        <a class="text-black text-decoration-none" href="https://mdbootstrap.com/"><b>  © 2023 Copyright: Abbie
+                            Marder & Sam Silverstein</b></a>
+                      </div>
+                      <!-- Copyright -->
+                    </footer>
+                    <!-- Footer -->
+                  </div>
+                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+                    crossorigin="anonymous"></script>
+                  <script src="script.js"></script>
+                  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                  <!-- Include all compiled plugins (below), or include individual files as needed -->
+                  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-                crossorigin="anonymous"></script>
-              <script src="script.js"></script>
-  
-            
 </body>
 
 </html>
